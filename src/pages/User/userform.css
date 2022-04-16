@@ -1,0 +1,47 @@
+.main{
+    width : 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main > form{
+    width: 370px;
+    background-color: rgb(237, 240, 243);
+    padding: 35px 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+}
+.form_control > label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.form_control > input{
+    padding: 12px;
+}
+.form_control > span, .form_control > div > span {
+    color: rgb(238, 18, 18);
+    font-weight: bold;
+}
+.main > form > button{
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.fileUpload{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.fileUpload > img{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    object-fit: cover;
+}
